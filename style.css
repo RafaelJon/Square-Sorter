@@ -1,0 +1,79 @@
+*{
+    
+    font-family: 'Oswald', sans-serif;
+    transition: .3s;
+    color: white;
+}
+body{
+    height: 100vh;
+    background-color: #202020;
+    background-size: auto;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+header{
+    padding: 20px;
+}
+h1{
+    margin: 0;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+td{
+    padding: 15px;
+    user-select: none;
+}
+input{
+    color: black;
+}
+button{
+    background: none;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.button-map:hover{
+    background-color: white;
+    color: blue;
+}
+.button-map:active{
+    border-color: lightgray;
+    background-color: lightgray;
+    color: black;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+.table{
+    margin: auto;
+}
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 3px solid white;
+}
+input{
+    margin: 0 10px;
+}
+
+.button-arrow:hover{
+    background-color: lightgray;
+    transition: none;
+}
+.button-arrow:active{
+    color: black;
+    background-color: white;
+    transition: none;
+}
+
+@media screen and (max-width: 800px){
+    td{
+        padding: 8px;
+        border-width: 1px;
+    }
+}

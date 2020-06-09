@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <title>Square Sorter</title>
+    </style>
+</head>
+<body>
+    <header>
+        <h1><i>Square Sorter</i></h1>
+    </header>
+    <br>
+    <div class="flex-container">
+        <label for="">INPUT MAP SIZE</label>
+        <input type="number" id="map_input" min="3" max="7" value="3">
+    </div>
+    <br>
+    <div class="flex-container">
+        <button class="button-map" onclick="tile()">RESTART MAP</button>
+    </div>
+    <br>
+    <br>
+    <div class="flex-container" id="game_container">
+        <table id = "table"></table>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
